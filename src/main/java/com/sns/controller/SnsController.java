@@ -13,7 +13,7 @@ public class SnsController {
 
     @Autowired
     AmazonSNSClient snsClient;
-    private String TOPIC_ARN = "arn:aws:sns:ap-south-1:295245430654:DemoTopic";
+    private String TOPIC_ARN = "<tpoic-arn>:DemoTopic";
 
     @GetMapping("/subscribe/{email}")
     public String subscribeToSNSTopic(@PathVariable("email") String email) {
