@@ -6,5 +6,5 @@ cloud:
     stack:
       auto: false
     credentials:
-      access-key: AKIAUJPP7X57CKNE564E
-      secret-key: 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
+      access-key: <access-key>
+      secret-key: <secret-key>
